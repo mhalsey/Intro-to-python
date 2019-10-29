@@ -33,6 +33,6 @@ SINE["Length"]=(SINE["Stop"] - SINE["Start"])
 SINE["Proportion"]=SINE["Length"]/args["GENOMESIZE"]
 
 SINE.to_csv(args["TAXON"])
-#only prints out headers. 
+#only saves headers. 
 
 print("Done!")
