@@ -12,10 +12,10 @@ ap.add_argument("-c","--CHUNK", required=True, type=integer, help="Smaller subse
 args=vars(ap.parse_args() )
 
 def GC_chunk(size, step):
-    """
+    	"""
 	In theory, will create a sequence, chunk it, then calculate GC content for each chunk
 	In practice...
-    """
+    	"""
 	bases = 'ATGC'
     seq = ''.join(random.choice(bases) for i in range(args["LENGTH"])
 	return seq
