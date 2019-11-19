@@ -50,7 +50,7 @@ def ventana (input,size):
 ventana(scaffolds, args["CHUNK"])
 print ("Initializing the ventana")
 
-#To be honest, I am still unsure how functions "save" its work
+#To be honest, I am still unsure how functions "save" their work
 
 def GCC(list):
 #Calculates GC content for each window
