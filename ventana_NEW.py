@@ -17,7 +17,7 @@ matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 
 ap = argparse.ArgumentParser()
-ap.add_argument("-f", "--FILE"), required=True, help="Name of input file in current directory")
+ap.add_argument("-f", "--FILE", required=True, help="Name of input file in current directory")
 #ap.add_argument("-l", "--LENGTH", required=True, type=int, help="Length of input sequence")
 ap.add_argument("-c","--CHUNK", required=True, type=int, help="Smaller subset of sequence")
 args=vars(ap.parse_args() )
