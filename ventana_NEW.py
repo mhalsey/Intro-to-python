@@ -13,7 +13,7 @@ from Bio.SeqUtils import GC
 import matplotlib
 matplotlib.use('Agg')
 #Enables some backend sorcery.
-#That is allows me to view the plot after it's created
+#That is, it allows me to view the plot after it's created
 import matplotlib.pyplot as plt
 
 ap = argparse.ArgumentParser()
